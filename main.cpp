@@ -24,7 +24,7 @@ int main()
 		cout << "D" << endl;
 	}
 
-	else if (Score < 60)
+	else
 	{
 		cout << "F" << endl;
 	}
