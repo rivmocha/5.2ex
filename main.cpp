@@ -3,32 +3,12 @@ using namespace std;
 
 int main()
 {
-	int Score = 0;
-	cin >> Score;
-
-	if (Score >= 90 && Score < 100)
+	int Sum = 0;
+	for (int i = 0; i <= 100; i = i++)
 	{
-		cout << "A" << endl;
+		Sum = Sum + i;
 	}
-
-	else if (Score >= 80 && Score < 90)
-	{
-		cout << "B" << endl;
-	}
-	else if (Score >= 70 && Score < 80)
-	{
-		cout << "C" << endl;
-	}
-	else if (Score >= 60 && Score < 70)
-	{
-		cout << "D" << endl;
-	}
-
-	else
-	{
-		cout << "F" << endl;
-	}
-
+		cout << "1부터 100까지의 합은" << Sum << endl;
 
 	return 0;
 }
