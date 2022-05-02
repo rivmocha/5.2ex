@@ -11,20 +11,20 @@ int main()
 		cout << "A" << endl;
 	}
 
-	if (Score >= 80 && Score < 90)
+	else if (Score >= 80 && Score < 90)
 	{
 		cout << "B" << endl;
 	}
-	if (Score >= 70 && Score < 80)
+	else if (Score >= 70 && Score < 80)
 	{
 		cout << "C" << endl;
 	}
-	if (Score >= 60 && Score < 70)
+	else if (Score >= 60 && Score < 70)
 	{
 		cout << "D" << endl;
 	}
 
-	if (Score < 60)
+	else if (Score < 60)
 	{
 		cout << "F" << endl;
 	}
