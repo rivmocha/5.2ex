@@ -3,26 +3,31 @@ using namespace std;
 
 int main()
 {
-	int A = 0;
-	A = 100;
+	int Score = 0;
+	cin >> Score;
 
+	if (Score >= 90 && Score < 100)
+	{
+		cout << "A" << endl;
+	}
 
-	cout << A + 3 << endl;
-	cout << A - 3 << endl;
-	cout << A * 3 << endl;
-	cout << A / 3 << endl;
-	cout << A % 3 << endl;
-	cout << endl;
+	if (Score >= 80 && Score < 90)
+	{
+		cout << "B" << endl;
+	}
+	if (Score >= 70 && Score < 80)
+	{
+		cout << "C" << endl;
+	}
+	if (Score >= 60 && Score < 70)
+	{
+		cout << "D" << endl;
+	}
 
-
-	float B = 0;
-	B = 2.1f;
-
-	cout << B + 0.3f << endl;
-	cout << B - 0.3f << endl;
-	cout << B * 0.3f << endl;
-	cout << B / 0.3f << endl;
-
+	if (Score < 60)
+	{
+		cout << "F" << endl;
+	}
 
 
 	return 0;
