@@ -8,7 +8,8 @@ int main()
 	{
 		Sum = Sum + i;
 	}
-		cout << "1부터 100까지의 합은" << Sum << endl;
+
+	cout << "1부터 100까지의 합은" << Sum << endl;
 
 	return 0;
 }
